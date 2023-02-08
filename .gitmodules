@@ -1,0 +1,3 @@
+[submodule "packages/student"]
+	path = packages/student
+	url = git@github.com:Kyons-VN/kyons_flutter.git

@@ -1,0 +1,12 @@
+name: kyons_melos
+repository: https://github.com/Kyons-VN/kyons-melos
+
+packages:
+  - packages/*
+  - packages/*/*
+  - packages/*/*/*
+  - tests
+
+scripts:
+  analyze:
+    exec: dart analyze .
