@@ -1,3 +1,5 @@
 import 'package:intl/intl.dart';
 
-String firstCapital(String str) => toBeginningOfSentenceCase(str.toLowerCase())!;
+extension StringX on String {
+  String firstCapital() => toBeginningOfSentenceCase(this.toLowerCase())!;
+}

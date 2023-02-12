@@ -34,28 +34,15 @@ dependencies:
 dev_dependencies:
   build_runner: null
 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: 2.0.1
   flutter_test:
     sdk: flutter
   freezed: 2.3.2
-  # injectable_generator: 1.5.3
   json_serializable: 6.6.1
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-# The following section is specific to Flutter packages.
 flutter:
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-  # Enable generation of localized Strings from arb files.
   generate: true
 
   assets:
@@ -72,12 +59,3 @@ flutter:
     - family: Kyons Icons
       fonts:
         - asset: assets/kyons_fonts/KyonsIcons.ttf
-# flutter_icons:
-# android: true
-# ios: true
-# image_path: "assets/icon.png"
-# adaptive_icon_background: "#2C3D5B"
-# adaptive_icon_foreground: "assets/icon-adaptive-foreground.png"
-# windows:
-#   generate: true
-#   image_path: "assets/icon.png"
