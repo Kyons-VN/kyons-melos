@@ -1,0 +1,117 @@
+{
+  "appTitle": "KYONS",
+  "loginSuccess": "Đăng nhập thành công",
+  "email": "Email",
+  "password": "Mật khẩu",
+  "signIn": "Đăng nhập",
+  "signOut": "Đăng xuất",
+  "language": "Ngôn ngữ",
+  "invalidThing": "{thing} chưa đúng",
+  "@invalidThing": {
+    "placeholders": {
+      "thing": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Cài đặt",
+  "themeMode": "Chế độ sáng tối",
+  "themeModeSystem": "Theo hệ thống",
+  "lightMode": "Nền sáng",
+  "dartMode": "Nền tối",
+  "vi": "Tiếng Việt",
+  "en": "English",
+  "thingWithStatus": "{thing} {status}",
+  "@thingWithStatus": {
+    "placeholders": {
+      "thing": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "success": "Thành công",
+  "fail": "Không thành công",
+  "back": "Trở về",
+  "choose_subject_and_program": "Bạn hãy chọn môn và\nchương trình học",
+  "choose_subject_and_program_headline": "Chọn môn\n& chương trình học",
+  "select_thing": "Chọn {thing}",
+  "@select_thing": {
+    "placeholders": {
+      "thing": {
+        "type": "String"
+      }
+    }
+  },
+  "subject": "Môn",
+  "math": "Toán",
+  "english": "Tiếng Anh",
+  "start": "Bắt đầu",
+  "back_to_home": "Về trang chủ",
+  "do_diagnostictest_heading": "Làm bài khảo sát\ntrước nhé!",
+  "do_diagnostictest_btn": "Làm bài khảo sát trình độ",
+  "do_diagnostictest_cancel": "Thôi, không cần đâu!",
+  "diagnostic_test": "Bài khảo sát",
+  "thing_number": "{thing} {number}",
+  "@thing_number": {
+    "placeholders": {
+      "thing": {
+        "type": "String"
+      },
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "question": "Câu hỏi",
+  "lesson": "Bài học",
+  "question_number": "Câu",
+  "lesson_number": "Bài",
+  "home": "Trang chủ",
+  "learning_path": "Lộ trình học",
+  "ok": "Đồng ý",
+  "cancel": "Hủy yêu cầu",
+  "call_tutor": "Gọi gia sư hỗ trợ nhé?",
+  "connecting_tutor": "Kyons đang kết nối với gia sư.\nBạn vui lòng đợi trong ít phút.",
+  "tutor_ready": "Gia sư đã sẵn sàng.\nNhấn vào nút \"Gặp gia sư\" để kết nối với gia sư.",
+  "meet_tutor": "Gặp gia sư",
+  "exercise": "Bài tập",
+  "test": "Kiểm tra cuối bài",
+  "level": "Cấp độ",
+  "your_score": "Điểm của bạn",
+  "general_knowledge": "Tổng quan kiến thức",
+  "knowledge_should_review": "Kiến thức cần xem lại",
+  "redo_exercise": "Làm lại bài tập",
+  "do_test": "Làm bài kiểm tra",
+  "error": "Có lỗi, vui lòng thử lại sau",
+  "to_learning_path": "Đến giáo trình",
+  "finish_test": "Bạn đã hoàn thành bài kiểm tra",
+  "learning_path_is_reparing": "Kyons đang chuẩn bị giáo trình cho bạn. Xin vui lòng đợi!",
+  "learning_path_is_ready": "Kyons đã chuẩn bị xong giáo trình cho bạn. Bắt đầu học thôi nào!",
+  "hi_so": "Chào {so}",
+  "@hi_so": {
+    "placeholders": {
+      "so": {
+        "type": "String"
+      }
+    }
+  },
+  "lesson_is_reparing": "Kyons đang chuẩn bị bài học cho bạn",
+  "new_lesson": "Tạo bài học mới",
+  "press": "Nhấn (",
+  "to_add_knowledge": ") để đưa kiến thức vào bài học",
+  "create_lesson": "Tạo bài học",
+  "selected_knowledge_count": "{count, plural, zero{Chưa chọn kiến thức} one{1 kiến thức được chọn} other{{count} kiến thức được chọn}}",
+  "@selected_knowledge_count": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "forgot_password":"Quên mật khẩu?",
+  "does_not_have_account":"Bạn chưa có tài khoản?",
+  "register_here":"Đăng ký tài khoản"
+}

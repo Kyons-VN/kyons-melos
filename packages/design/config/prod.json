@@ -1,0 +1,7 @@
+{
+  "isProduction": true,
+  "name": "STUDENT",
+  "isPromotionEnable": false,
+  "serverApi": "https://api.tuhoconline.org",
+  "clientApi": "https://student.tuhoconline.org"
+}

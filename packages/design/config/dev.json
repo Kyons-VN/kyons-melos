@@ -1,0 +1,7 @@
+{
+  "isProduction": false,
+  "name": "STUDENT",
+  "isPromotionEnable": false,
+  "serverApi": "https://api-stg.tuhoconline.org",
+  "clientApi": "https://kyonsvn.web.app/student/#"
+}
