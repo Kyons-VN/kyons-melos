@@ -22,7 +22,7 @@ extension XTextTheme on TextTheme {
   TextStyle get heading7 => headlineMedium!.copyWith(
         fontSize: AppFontSizes.heading7,
       );
-  TextStyle get heading8 => headline1!.copyWith(
+  TextStyle get heading8 => headlineMedium!.copyWith(
         fontSize: AppFontSizes.heading8,
         fontWeight: FontWeight.w800,
       );

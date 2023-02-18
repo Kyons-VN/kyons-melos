@@ -2,9 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'package:design/bootstrap/config_reader.dart';
+import 'package:design/bootstrap/main_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
-import 'package:shared_package/shared_package.dart';
 
 /// A more functional demo of the usage of the adaptive layout helper widgets.
 /// Specifically, it is built using an [AdaptiveLayout] and uses static helpers
@@ -14,26 +15,8 @@ import 'package:shared_package/shared_package.dart';
 /// For a more clear cut example usage, please look at adaptive_layout_demo.dart
 /// or adaptive_scaffold_demo.dart
 
-void main() {
-  runApp(const MyApp());
-}
-
-/// The main application widget for this example.
-class MyApp extends StatelessWidget {
-  /// Creates a const main application widget.
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Adaptive Layout Demo',
-      routes: <String, Widget Function(BuildContext)>{
-        _ExtractRouteArguments.routeName: (_) => const _ExtractRouteArguments()
-      },
-      theme: lightTheme(),
-      home: const MyHomePage(),
-    );
-  }
+Future<void> main() async {
+  await mainCommon(Environment.prod);
 }
 
 /// Creates an example mail page using [AdaptiveLayout].

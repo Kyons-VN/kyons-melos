@@ -39,7 +39,6 @@ ThemeData lightTheme() {
     useMaterial3: true,
     visualDensity: VisualDensity.standard,
     scaffoldBackgroundColor: AppColors.blueGray100,
-    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryBlue),
     inputDecorationTheme: InputDecorationTheme(
       floatingLabelBehavior: FloatingLabelBehavior.never,
       border: MaterialStateOutlineInputBorder.resolveWith((states) {
@@ -188,7 +187,7 @@ ThemeData lightTheme() {
       space: 0,
       color: AppColors.blueGray400,
     ),
-    iconTheme: const IconThemeData(color: AppColors.blueGray400),
+    iconTheme: const IconThemeData(color: AppColors.blueGray400, size: 16).copyWith(size: 16),
     primaryIconTheme: const IconThemeData(color: AppColors.orange),
     appBarTheme: const AppBarTheme(
       color: AppColors.white,
@@ -197,7 +196,6 @@ ThemeData lightTheme() {
       ),
       scrolledUnderElevation: 0,
     ),
-    errorColor: AppColors.red,
     bottomSheetTheme: const BottomSheetThemeData(
       modalBackgroundColor: AppColors.primaryBlue,
       shape: RoundedRectangleBorder(
@@ -208,13 +206,14 @@ ThemeData lightTheme() {
       color: AppColors.lightBlue1,
       linearTrackColor: AppColors.blueGray300,
     ),
+    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryBlue).copyWith(error: AppColors.red),
   );
 }
 
 ThemeData darkTheme() => ThemeData.dark().copyWith(
       useMaterial3: true,
       visualDensity: VisualDensity.standard,
-      colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryBlue),
+      colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryBlue).copyWith(error: AppColors.red),
       inputDecorationTheme: InputDecorationTheme(
         border: MaterialStateOutlineInputBorder.resolveWith((states) {
           // final isFocused = states.contains(MaterialState.focused);

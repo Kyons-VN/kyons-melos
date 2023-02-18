@@ -47,3 +47,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
+  assets:
+    - config/
+  fonts:
+    - family: Kyons-Icon-Fonts
+      fonts:
+        - asset: assets/kyons_fonts/Kyons-Icon-Fonts.ttf

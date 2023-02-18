@@ -29,6 +29,12 @@
       "type": "dart",
       "flutterMode": "release",
       "program": "packages/student/lib/main.dart"
+    },
+    {
+      "name": "Design",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/design/lib/main.dart"
     }
   ]
 }
