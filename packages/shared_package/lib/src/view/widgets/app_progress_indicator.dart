@@ -9,7 +9,6 @@ class AppProgressIndicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
       height: AppSizesUnit.small8,
       decoration: const BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(AppSizesUnit.small8 / 2)),

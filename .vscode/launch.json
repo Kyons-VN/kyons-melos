@@ -35,6 +35,18 @@
       "request": "launch",
       "type": "dart",
       "program": "packages/design/lib/main.dart"
+    },
+    {
+      "name": "School",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/school/lib/main_dev.dart"
+    },
+    {
+      "name": "School Web",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/school/lib/main_dev_web.dart"
     }
   ]
 }

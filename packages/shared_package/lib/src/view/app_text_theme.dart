@@ -12,6 +12,7 @@ extension XTextTheme on TextTheme {
       );
   TextStyle get heading4 => headlineMedium!.copyWith(
         fontSize: AppFontSizes.heading4,
+        color: AppColors.primaryBlue,
       );
   TextStyle get heading5 => headlineMedium!.copyWith(
         fontSize: AppFontSizes.heading5,
@@ -33,6 +34,13 @@ extension XTextTheme on TextTheme {
         fontSize: AppFontSizes.table,
       );
   TextStyle get tableHeader => tableRow.copyWith(
+        fontWeight: FontWeight.w700,
+      );
+  TextStyle get note => paragraph.copyWith(
+        fontSize: AppFontSizes.caption,
+      );
+  TextStyle get capBold => note.copyWith(
+        fontSize: AppFontSizes.caption,
         fontWeight: FontWeight.w700,
       );
 }

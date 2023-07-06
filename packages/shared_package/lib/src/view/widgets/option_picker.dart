@@ -1,17 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:fpdart/fpdart.dart' hide State;
 
 import '../../../shared_package.dart';
 
 class CupertinoPickerOptions<T> extends StatefulWidget {
   final List<T> options;
-  final Function onPicked;
-  final T selectedOption;
+  final Option<Function> onPicked;
+  final Option<T> selectedOption;
+  final String placeholder;
   const CupertinoPickerOptions({
     Key? key,
     required this.onPicked,
     required this.options,
     required this.selectedOption,
+    this.placeholder = '',
   }) : super(key: key);
 
   @override
@@ -50,46 +53,55 @@ class _CupertinoPickerOptionsState extends State<CupertinoPickerOptions> {
     const double kItemExtent = 32.0;
     return GestureDetector(
       // Display a CupertinoPicker with list of fruits.
-      onTap: () => _showDialog(
-        CupertinoPicker(
-          scrollController: FixedExtentScrollController(initialItem: selectedIndex),
-          magnification: 1.22,
-          squeeze: 1.2,
-          useMagnifier: true,
-          itemExtent: kItemExtent,
-          // This is called when selected item is changed.
-          onSelectedItemChanged: (index) {
-            setState(() {
-              if (widget.options.isEmpty) {
-                selectedIndex = 0;
-              } else {
-                selectedIndex = index;
-                widget.onPicked(widget.options[selectedIndex]);
-              }
-            });
-          },
-          children: List<Widget>.generate(widget.options.length, (int index) {
-            return Center(
-              child: Text(
-                widget.options[index].name,
+      onTap: () => widget.onPicked.isSome()
+          ? _showDialog(
+              CupertinoPicker(
+                scrollController: FixedExtentScrollController(initialItem: selectedIndex),
+                magnification: 1.22,
+                squeeze: 1.2,
+                useMagnifier: true,
+                itemExtent: kItemExtent,
+                // This is called when selected item is changed.
+                onSelectedItemChanged: (index) {
+                  setState(() {
+                    if (widget.options.isEmpty) {
+                      selectedIndex = 0;
+                    } else {
+                      selectedIndex = index;
+                      widget.onPicked.getOrElse(() => () {}).call(widget.options[selectedIndex]);
+                    }
+                  });
+                },
+                children: List<Widget>.generate(widget.options.length, (int index) {
+                  return Center(
+                    child: Text(
+                      widget.options[index].name,
+                      style: Theme.of(context)
+                          .textTheme
+                          .bodyLarge!
+                          .copyWith(color: AppColors.primaryBlue, fontWeight: FontWeight.normal),
+                    ),
+                  );
+                }),
               ),
-            );
-          }),
-        ),
-      ),
+            )
+          : null,
       child: FocusableActionDetector(
-        mouseCursor: SystemMouseCursors.click,
+        mouseCursor: widget.onPicked.isSome() ? SystemMouseCursors.click : SystemMouseCursors.forbidden,
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 9.5),
           decoration: BoxDecoration(
-            color: AppColors.white,
-            borderRadius: BorderRadius.circular(AppSizesUnit.small5),
-          ),
+              color: widget.onPicked.isSome() ? AppColors.white : AppColors.blueGray100,
+              borderRadius: BorderRadius.circular(AppSizesUnit.small5),
+              border: Border.all(
+                color: AppColors.blueGray300,
+                width: 1,
+              )),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                widget.selectedOption.name,
+                widget.selectedOption.fold(() => widget.placeholder, (t) => t.name),
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
               const Icon(

@@ -112,7 +112,7 @@ class AppIcons {
   static const IconData profile = IconData(0xe92d, fontFamily: _fontFamily, fontPackage: 'shared_package');
   static const IconData reload = IconData(0xe92e, fontFamily: _fontFamily, fontPackage: 'shared_package');
   static const IconData search = IconData(0xe92f, fontFamily: _fontFamily, fontPackage: 'shared_package');
-  static const IconData sign_out = IconData(0xe930, fontFamily: _fontFamily, fontPackage: 'shared_package');
+  static const IconData signOut = IconData(0xe930, fontFamily: _fontFamily, fontPackage: 'shared_package');
   static const IconData submit = IconData(0xe931, fontFamily: _fontFamily, fontPackage: 'shared_package');
   static const IconData subtract = IconData(0xe932, fontFamily: _fontFamily, fontPackage: 'shared_package');
   static const IconData test = IconData(0xe933, fontFamily: _fontFamily, fontPackage: 'shared_package');
@@ -127,7 +127,7 @@ class AppIcons {
   static Widget backIcon = square48(AppIcons.arrowLeft);
   static Widget lessonContentIcon = square48(AppIcons.lessonContent);
   static Widget notificationIcon = square48(AppIcons.notification);
-  static Widget closeIcon = square48(AppIcons.close);
+  static Widget closeIcon(void Function() onTap) => iconButton(close, onTap);
 
   static Widget square48(IconData icon, {Color? color = AppColors.orange}) => MouseRegion(
         cursor: SystemMouseCursors.click,
@@ -137,6 +137,38 @@ class AppIcons {
           child: Icon(
             icon,
             color: color,
+          ),
+        ),
+      );
+  static Widget square24(IconData icon, {Color? color = AppColors.orange}) => MouseRegion(
+        cursor: SystemMouseCursors.click,
+        child: SizedBox(
+          width: AppSizesUnit.medium24,
+          height: AppSizesUnit.medium24,
+          child: Icon(
+            size: AppSizesUnit.medium24,
+            icon,
+            color: color,
+          ),
+        ),
+      );
+  static iconButton(IconData icon, void Function()? onTap, {Color? color = AppColors.orange}) =>
+      FocusableActionDetector(
+        actions: <Type, Action<Intent>>{
+          ActivateIntent: CallbackAction<ActivateIntent>(
+            onInvoke: (ActivateIntent intent) {
+              if (onTap != null) onTap();
+              return true;
+            },
+          ),
+        },
+        mouseCursor: SystemMouseCursors.click,
+        child: GestureDetector(
+          onTap: onTap,
+          child: Icon(
+            icon,
+            color: color,
+            size: 24,
           ),
         ),
       );

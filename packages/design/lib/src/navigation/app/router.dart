@@ -85,21 +85,21 @@ class AppRouter {
   }
 }
 
-_slideTransitionBuilder() =>
-    (BuildContext context, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) =>
-        SlideTransition(
-          position: animation.drive(
-            Tween<Offset>(
-              begin: const Offset(1, 0),
-              end: Offset.zero,
-            ).chain(CurveTween(curve: Curves.easeIn)),
-          ),
-          child: GestureDetector(
-              onTapDown: (details) {
-                print(details);
-              },
-              child: child),
-        );
+// _slideTransitionBuilder() =>
+//     (BuildContext context, Animation<double> animation, Animation<double> secondaryAnimation, Widget child) =>
+//         SlideTransition(
+//           position: animation.drive(
+//             Tween<Offset>(
+//               begin: const Offset(1, 0),
+//               end: Offset.zero,
+//             ).chain(CurveTween(curve: Curves.easeIn)),
+//           ),
+//           child: GestureDetector(
+//               onTapDown: (details) {
+//                 print(details);
+//               },
+//               child: child),
+//         );
 
 class GoRouterObserver extends NavigatorObserver {
   @override

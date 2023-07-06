@@ -3,6 +3,7 @@ part of 'themes.dart';
 class AppSizesUnit {
   static const small4 = 4.0;
   static const small5 = 5.0;
+  static const small6 = 6.0;
   static const small8 = 8.0;
   static const medium16 = 16.0;
   static const medium20 = 20.0;
@@ -16,6 +17,7 @@ class AppSizesUnit {
   static const large80 = 80.0;
   static const lessonItemSize = 160.0;
   static const menuHeight = 56.0;
+  static const sizedBox6 = SizedBox(height: small6, width: small6);
   static const sizedBox8 = SizedBox(height: small8, width: small8);
   static const sizedBox16 = SizedBox(height: medium16, width: medium16);
   static const sizedBox24 = SizedBox(height: medium24, width: medium24);
