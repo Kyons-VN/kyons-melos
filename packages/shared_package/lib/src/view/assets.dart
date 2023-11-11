@@ -9,10 +9,10 @@ class AppAssets {
     height: 100,
     package: 'shared_package',
   );
-  static SvgPicture chooseSubjectSVG = SvgPicture.asset(
-    'assets/images/logo-v.svg',
-    width: 200,
-    height: 200,
+  static SvgPicture logoHorizontalSVG = SvgPicture.asset(
+    'assets/images/logo_horizontal.svg',
+    width: 152.28,
+    height: 48,
     package: 'shared_package',
   );
   static SvgPicture tutorSVG = SvgPicture.asset(
@@ -75,18 +75,29 @@ class AppAssets {
     height: 32,
     package: 'shared_package',
   );
-  static SvgPicture planetImageXs1 = SvgPicture.asset(
-    'assets/images/planet.svg',
-    width: 63.39,
-    height: 63.39,
+  static SvgPicture homeSVG = SvgPicture.asset(
+    'assets/images/Home.svg',
+    width: 24,
+    height: 24,
+    package: 'shared_package',
   );
-  static SvgPicture planetImageXs2 = SvgPicture.asset(
-    'assets/images/planet.svg',
-    width: 171,
-    height: 171,
+  static SvgPicture storeSVG = SvgPicture.asset(
+    'assets/images/Store.svg',
+    width: 24,
+    height: 24,
+    package: 'shared_package',
   );
-  static AssetImage heroImageXs = AssetImage(
-    'assets/images/hero-image-xs.png',
+  static SvgPicture faqSVG = SvgPicture.asset(
+    'assets/images/FAQ.svg',
+    width: 24,
+    height: 24,
+    package: 'shared_package',
+  );
+  static SvgPicture profileSVG = SvgPicture.asset(
+    'assets/images/Profile.svg',
+    width: 24,
+    height: 24,
+    package: 'shared_package',
   );
 }
 

@@ -71,9 +71,9 @@ class ButtonsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
         body: Column(
-      children: const [
+      children: [
         Icon(KyonsIconFonts.calendar),
         Icon(AppIcons.calendar),
       ],

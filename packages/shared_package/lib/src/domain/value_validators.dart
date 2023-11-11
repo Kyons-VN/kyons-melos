@@ -3,7 +3,7 @@ import 'package:fpdart/fpdart.dart';
 import 'failures.dart';
 
 Either<ValueFailure<String>, String> validateEmailAddress(String input) {
-  const emailRegex = r'''^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+''';
+  const emailRegex = r'[a-z0-9.+]+@[a-z0-9]+\.[a-z]{2,4}';
   if (RegExp(emailRegex).hasMatch(input)) {
     return right(input);
   } else {

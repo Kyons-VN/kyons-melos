@@ -116,7 +116,8 @@ ThemeData lightTheme() {
           if (states.contains(MaterialState.hovered)) return 1;
           return null;
         }),
-        padding: MaterialStateProperty.all(const EdgeInsets.symmetric(vertical: 17, horizontal: 20)),
+        padding: MaterialStateProperty.all(
+            const EdgeInsets.symmetric(vertical: AppSizesUnit.small6, horizontal: AppSizesUnit.medium16)),
         mouseCursor: MaterialStateProperty.resolveWith((states) {
           if (states.contains(MaterialState.disabled)) return SystemMouseCursors.forbidden;
           return SystemMouseCursors.click;
@@ -174,7 +175,8 @@ ThemeData lightTheme() {
           if (states.contains(MaterialState.hovered)) return 1;
           return null;
         }),
-        padding: MaterialStateProperty.all(const EdgeInsets.symmetric(vertical: 17, horizontal: 20)),
+        padding: MaterialStateProperty.all(
+            const EdgeInsets.symmetric(vertical: AppSizesUnit.small6, horizontal: AppSizesUnit.medium16)),
         mouseCursor: MaterialStateProperty.resolveWith((states) {
           if (states.contains(MaterialState.disabled)) return SystemMouseCursors.forbidden;
           return SystemMouseCursors.click;
@@ -182,7 +184,7 @@ ThemeData lightTheme() {
       ),
     ),
     canvasColor: AppColors.orange,
-    drawerTheme: DrawerThemeData(
+    drawerTheme: const DrawerThemeData(
       backgroundColor: AppColors.primaryBlue,
       elevation: 1.0,
       width: double.infinity,
@@ -294,7 +296,7 @@ ThemeData lightTheme() {
       ),
       inputDecorationTheme: InputDecorationTheme(
         fillColor: AppColors.white,
-        labelStyle: TextStyle(color: AppColors.red),
+        labelStyle: const TextStyle(color: AppColors.red),
         disabledBorder: OutlineInputBorder(
           borderSide: const BorderSide(color: AppColors.blueGray300, width: 1),
           borderRadius: BorderRadius.circular(AppSizesUnit.small5),

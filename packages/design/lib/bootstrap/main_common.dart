@@ -122,6 +122,9 @@ class _AppWidgetState extends ConsumerState<AppWidget> with WidgetsBindingObserv
       case AppLifecycleState.detached:
         print("app in detached");
         break;
+      case AppLifecycleState.hidden:
+        print("app in hidden");
+        break;
     }
   }
 

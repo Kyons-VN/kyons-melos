@@ -93,25 +93,25 @@ class _$ApiFailureCopyWithImpl<T, $Res, $Val extends ApiFailure<T>>
 }
 
 /// @nodoc
-abstract class _$$ClientErrorCopyWith<T, $Res> {
-  factory _$$ClientErrorCopyWith(
-          _$ClientError<T> value, $Res Function(_$ClientError<T>) then) =
-      __$$ClientErrorCopyWithImpl<T, $Res>;
+abstract class _$$ClientErrorImplCopyWith<T, $Res> {
+  factory _$$ClientErrorImplCopyWith(_$ClientErrorImpl<T> value,
+          $Res Function(_$ClientErrorImpl<T>) then) =
+      __$$ClientErrorImplCopyWithImpl<T, $Res>;
 }
 
 /// @nodoc
-class __$$ClientErrorCopyWithImpl<T, $Res>
-    extends _$ApiFailureCopyWithImpl<T, $Res, _$ClientError<T>>
-    implements _$$ClientErrorCopyWith<T, $Res> {
-  __$$ClientErrorCopyWithImpl(
-      _$ClientError<T> _value, $Res Function(_$ClientError<T>) _then)
+class __$$ClientErrorImplCopyWithImpl<T, $Res>
+    extends _$ApiFailureCopyWithImpl<T, $Res, _$ClientErrorImpl<T>>
+    implements _$$ClientErrorImplCopyWith<T, $Res> {
+  __$$ClientErrorImplCopyWithImpl(
+      _$ClientErrorImpl<T> _value, $Res Function(_$ClientErrorImpl<T>) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$ClientError<T> implements ClientError<T> {
-  const _$ClientError();
+class _$ClientErrorImpl<T> implements ClientError<T> {
+  const _$ClientErrorImpl();
 
   @override
   String toString() {
@@ -121,7 +121,7 @@ class _$ClientError<T> implements ClientError<T> {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$ClientError<T>);
+        (other.runtimeType == runtimeType && other is _$ClientErrorImpl<T>);
   }
 
   @override
@@ -209,29 +209,29 @@ class _$ClientError<T> implements ClientError<T> {
 }
 
 abstract class ClientError<T> implements ApiFailure<T> {
-  const factory ClientError() = _$ClientError<T>;
+  const factory ClientError() = _$ClientErrorImpl<T>;
 }
 
 /// @nodoc
-abstract class _$$ApiServerErrorCopyWith<T, $Res> {
-  factory _$$ApiServerErrorCopyWith(
-          _$ApiServerError<T> value, $Res Function(_$ApiServerError<T>) then) =
-      __$$ApiServerErrorCopyWithImpl<T, $Res>;
+abstract class _$$ApiServerErrorImplCopyWith<T, $Res> {
+  factory _$$ApiServerErrorImplCopyWith(_$ApiServerErrorImpl<T> value,
+          $Res Function(_$ApiServerErrorImpl<T>) then) =
+      __$$ApiServerErrorImplCopyWithImpl<T, $Res>;
 }
 
 /// @nodoc
-class __$$ApiServerErrorCopyWithImpl<T, $Res>
-    extends _$ApiFailureCopyWithImpl<T, $Res, _$ApiServerError<T>>
-    implements _$$ApiServerErrorCopyWith<T, $Res> {
-  __$$ApiServerErrorCopyWithImpl(
-      _$ApiServerError<T> _value, $Res Function(_$ApiServerError<T>) _then)
+class __$$ApiServerErrorImplCopyWithImpl<T, $Res>
+    extends _$ApiFailureCopyWithImpl<T, $Res, _$ApiServerErrorImpl<T>>
+    implements _$$ApiServerErrorImplCopyWith<T, $Res> {
+  __$$ApiServerErrorImplCopyWithImpl(_$ApiServerErrorImpl<T> _value,
+      $Res Function(_$ApiServerErrorImpl<T>) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$ApiServerError<T> implements ApiServerError<T> {
-  const _$ApiServerError();
+class _$ApiServerErrorImpl<T> implements ApiServerError<T> {
+  const _$ApiServerErrorImpl();
 
   @override
   String toString() {
@@ -241,7 +241,7 @@ class _$ApiServerError<T> implements ApiServerError<T> {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$ApiServerError<T>);
+        (other.runtimeType == runtimeType && other is _$ApiServerErrorImpl<T>);
   }
 
   @override
@@ -329,29 +329,29 @@ class _$ApiServerError<T> implements ApiServerError<T> {
 }
 
 abstract class ApiServerError<T> implements ApiFailure<T> {
-  const factory ApiServerError() = _$ApiServerError<T>;
+  const factory ApiServerError() = _$ApiServerErrorImpl<T>;
 }
 
 /// @nodoc
-abstract class _$$UnAuthenticatedCopyWith<T, $Res> {
-  factory _$$UnAuthenticatedCopyWith(_$UnAuthenticated<T> value,
-          $Res Function(_$UnAuthenticated<T>) then) =
-      __$$UnAuthenticatedCopyWithImpl<T, $Res>;
+abstract class _$$UnAuthenticatedImplCopyWith<T, $Res> {
+  factory _$$UnAuthenticatedImplCopyWith(_$UnAuthenticatedImpl<T> value,
+          $Res Function(_$UnAuthenticatedImpl<T>) then) =
+      __$$UnAuthenticatedImplCopyWithImpl<T, $Res>;
 }
 
 /// @nodoc
-class __$$UnAuthenticatedCopyWithImpl<T, $Res>
-    extends _$ApiFailureCopyWithImpl<T, $Res, _$UnAuthenticated<T>>
-    implements _$$UnAuthenticatedCopyWith<T, $Res> {
-  __$$UnAuthenticatedCopyWithImpl(
-      _$UnAuthenticated<T> _value, $Res Function(_$UnAuthenticated<T>) _then)
+class __$$UnAuthenticatedImplCopyWithImpl<T, $Res>
+    extends _$ApiFailureCopyWithImpl<T, $Res, _$UnAuthenticatedImpl<T>>
+    implements _$$UnAuthenticatedImplCopyWith<T, $Res> {
+  __$$UnAuthenticatedImplCopyWithImpl(_$UnAuthenticatedImpl<T> _value,
+      $Res Function(_$UnAuthenticatedImpl<T>) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$UnAuthenticated<T> implements UnAuthenticated<T> {
-  const _$UnAuthenticated();
+class _$UnAuthenticatedImpl<T> implements UnAuthenticated<T> {
+  const _$UnAuthenticatedImpl();
 
   @override
   String toString() {
@@ -361,7 +361,7 @@ class _$UnAuthenticated<T> implements UnAuthenticated<T> {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$UnAuthenticated<T>);
+        (other.runtimeType == runtimeType && other is _$UnAuthenticatedImpl<T>);
   }
 
   @override
@@ -449,29 +449,29 @@ class _$UnAuthenticated<T> implements UnAuthenticated<T> {
 }
 
 abstract class UnAuthenticated<T> implements ApiFailure<T> {
-  const factory UnAuthenticated() = _$UnAuthenticated<T>;
+  const factory UnAuthenticated() = _$UnAuthenticatedImpl<T>;
 }
 
 /// @nodoc
-abstract class _$$SubscriptionExpiredCopyWith<T, $Res> {
-  factory _$$SubscriptionExpiredCopyWith(_$SubscriptionExpired<T> value,
-          $Res Function(_$SubscriptionExpired<T>) then) =
-      __$$SubscriptionExpiredCopyWithImpl<T, $Res>;
+abstract class _$$SubscriptionExpiredImplCopyWith<T, $Res> {
+  factory _$$SubscriptionExpiredImplCopyWith(_$SubscriptionExpiredImpl<T> value,
+          $Res Function(_$SubscriptionExpiredImpl<T>) then) =
+      __$$SubscriptionExpiredImplCopyWithImpl<T, $Res>;
 }
 
 /// @nodoc
-class __$$SubscriptionExpiredCopyWithImpl<T, $Res>
-    extends _$ApiFailureCopyWithImpl<T, $Res, _$SubscriptionExpired<T>>
-    implements _$$SubscriptionExpiredCopyWith<T, $Res> {
-  __$$SubscriptionExpiredCopyWithImpl(_$SubscriptionExpired<T> _value,
-      $Res Function(_$SubscriptionExpired<T>) _then)
+class __$$SubscriptionExpiredImplCopyWithImpl<T, $Res>
+    extends _$ApiFailureCopyWithImpl<T, $Res, _$SubscriptionExpiredImpl<T>>
+    implements _$$SubscriptionExpiredImplCopyWith<T, $Res> {
+  __$$SubscriptionExpiredImplCopyWithImpl(_$SubscriptionExpiredImpl<T> _value,
+      $Res Function(_$SubscriptionExpiredImpl<T>) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$SubscriptionExpired<T> implements SubscriptionExpired<T> {
-  const _$SubscriptionExpired();
+class _$SubscriptionExpiredImpl<T> implements SubscriptionExpired<T> {
+  const _$SubscriptionExpiredImpl();
 
   @override
   String toString() {
@@ -481,7 +481,8 @@ class _$SubscriptionExpired<T> implements SubscriptionExpired<T> {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$SubscriptionExpired<T>);
+        (other.runtimeType == runtimeType &&
+            other is _$SubscriptionExpiredImpl<T>);
   }
 
   @override
@@ -569,29 +570,29 @@ class _$SubscriptionExpired<T> implements SubscriptionExpired<T> {
 }
 
 abstract class SubscriptionExpired<T> implements ApiFailure<T> {
-  const factory SubscriptionExpired() = _$SubscriptionExpired<T>;
+  const factory SubscriptionExpired() = _$SubscriptionExpiredImpl<T>;
 }
 
 /// @nodoc
-abstract class _$$RunOutMockTestCopyWith<T, $Res> {
-  factory _$$RunOutMockTestCopyWith(
-          _$RunOutMockTest<T> value, $Res Function(_$RunOutMockTest<T>) then) =
-      __$$RunOutMockTestCopyWithImpl<T, $Res>;
+abstract class _$$RunOutMockTestImplCopyWith<T, $Res> {
+  factory _$$RunOutMockTestImplCopyWith(_$RunOutMockTestImpl<T> value,
+          $Res Function(_$RunOutMockTestImpl<T>) then) =
+      __$$RunOutMockTestImplCopyWithImpl<T, $Res>;
 }
 
 /// @nodoc
-class __$$RunOutMockTestCopyWithImpl<T, $Res>
-    extends _$ApiFailureCopyWithImpl<T, $Res, _$RunOutMockTest<T>>
-    implements _$$RunOutMockTestCopyWith<T, $Res> {
-  __$$RunOutMockTestCopyWithImpl(
-      _$RunOutMockTest<T> _value, $Res Function(_$RunOutMockTest<T>) _then)
+class __$$RunOutMockTestImplCopyWithImpl<T, $Res>
+    extends _$ApiFailureCopyWithImpl<T, $Res, _$RunOutMockTestImpl<T>>
+    implements _$$RunOutMockTestImplCopyWith<T, $Res> {
+  __$$RunOutMockTestImplCopyWithImpl(_$RunOutMockTestImpl<T> _value,
+      $Res Function(_$RunOutMockTestImpl<T>) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
 
-class _$RunOutMockTest<T> implements RunOutMockTest<T> {
-  const _$RunOutMockTest();
+class _$RunOutMockTestImpl<T> implements RunOutMockTest<T> {
+  const _$RunOutMockTestImpl();
 
   @override
   String toString() {
@@ -601,7 +602,7 @@ class _$RunOutMockTest<T> implements RunOutMockTest<T> {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$RunOutMockTest<T>);
+        (other.runtimeType == runtimeType && other is _$RunOutMockTestImpl<T>);
   }
 
   @override
@@ -689,5 +690,5 @@ class _$RunOutMockTest<T> implements RunOutMockTest<T> {
 }
 
 abstract class RunOutMockTest<T> implements ApiFailure<T> {
-  const factory RunOutMockTest() = _$RunOutMockTest<T>;
+  const factory RunOutMockTest() = _$RunOutMockTestImpl<T>;
 }

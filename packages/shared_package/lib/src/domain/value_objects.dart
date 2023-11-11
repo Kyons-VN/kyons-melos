@@ -12,7 +12,7 @@ abstract class ValueObject<T> {
   /// Throws [UnexpectedValueError] containing the [ValueFailure]
   T getValueOrError() {
     // id is identity function, same as (r) => r
-    return value.fold((l) => throw UnexpectedError(l), id);
+    return value.fold((l) => throw UnexpectedError(l), (r) => r);
   }
 
   bool isValid() => value.isRight();

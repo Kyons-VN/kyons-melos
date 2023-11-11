@@ -41,6 +41,7 @@ extension ScreenSizeHelper on BuildContext {
   bool isLargerThanXsScreen() => MediaQuery.of(this).size.width >= BreakPoint.sm640;
   bool isLargerThanSmScreen() => MediaQuery.of(this).size.width >= BreakPoint.md768;
   bool isLargerThanMdScreen() => MediaQuery.of(this).size.width >= BreakPoint.lg1024;
+  bool isLargerThanLgScreen() => MediaQuery.of(this).size.width >= BreakPoint.xl1280;
   double dialogWidth() => this.isXsScreen() ? 300 : 400;
 
   bool responsiveVisibility(

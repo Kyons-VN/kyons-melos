@@ -44,4 +44,11 @@ class AppColors {
 
   static const Color shadow = Color.fromRGBO(0, 0, 0, 0.3);
   static const Color buttonShadow = Color.fromRGBO(0, 0, 0, 0.1);
+  static const List<BoxShadow> shadow3 = [
+    BoxShadow(
+      color: Color.fromRGBO(49, 93, 147, 0.1),
+      blurRadius: 9,
+      offset: Offset(0, 19), // Shadow position
+    ),
+  ];
 }

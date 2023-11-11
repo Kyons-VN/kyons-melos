@@ -3,8 +3,8 @@
 import 'package:build_runner_core/build_runner_core.dart' as _i1;
 import 'package:freezed/builder.dart' as _i2;
 import 'package:json_serializable/builder.dart' as _i3;
-import 'package:riverpod_generator/builder.dart' as _i4;
-import 'package:source_gen/builder.dart' as _i5;
+import 'package:source_gen/builder.dart' as _i4;
+import 'package:build_resolvers/builder.dart' as _i5;
 import 'dart:isolate' as _i6;
 import 'package:build_runner/build_runner.dart' as _i7;
 import 'dart:io' as _i8;
@@ -24,22 +24,22 @@ final _builders = <_i1.BuilderApplication>[
     appliesBuilders: const [r'source_gen:combining_builder'],
   ),
   _i1.apply(
-    r'riverpod_generator:riverpod_generator',
-    [_i4.riverpodBuilder],
-    _i1.toDependentsOf(r'riverpod_generator'),
-    hideOutput: true,
-    appliesBuilders: const [r'source_gen:combining_builder'],
-  ),
-  _i1.apply(
     r'source_gen:combining_builder',
-    [_i5.combiningBuilder],
+    [_i4.combiningBuilder],
     _i1.toNoneByDefault(),
     hideOutput: false,
     appliesBuilders: const [r'source_gen:part_cleanup'],
   ),
+  _i1.apply(
+    r'build_resolvers:transitive_digests',
+    [_i5.transitiveDigestsBuilder],
+    _i1.toAllPackages(),
+    isOptional: true,
+    hideOutput: true,
+  ),
   _i1.applyPostProcess(
     r'source_gen:part_cleanup',
-    _i5.partCleanup,
+    _i4.partCleanup,
   ),
 ];
 void main(

@@ -12,8 +12,8 @@ class AppHtml extends StatelessWidget {
       data: data,
       style: {
         'body': Style(
-          whiteSpace: WhiteSpace.PRE,
-          margin: const EdgeInsets.all(0),
+          whiteSpace: WhiteSpace.pre,
+          margin: Margins.zero,
           lineHeight: LineHeight.rem(1.5),
         )
       },
@@ -21,5 +21,4 @@ class AppHtml extends StatelessWidget {
   }
 }
 
-final Style htmlDefaultStyle =
-    Style(whiteSpace: WhiteSpace.PRE, margin: const EdgeInsets.all(0), lineHeight: LineHeight.rem(2));
+final Style htmlDefaultStyle = Style(whiteSpace: WhiteSpace.pre, margin: Margins.zero, lineHeight: LineHeight.rem(2));

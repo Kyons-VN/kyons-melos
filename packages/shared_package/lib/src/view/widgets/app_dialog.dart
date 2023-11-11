@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:go_router/go_router.dart';
 import 'package:shared_package/shared_package.dart';
-import 'package:shared_package/src/utils/responsive.dart';
 
 class AppDialog extends StatelessWidget {
   final Widget? title;
@@ -31,10 +29,10 @@ class AppDialog extends StatelessWidget {
                   crossAxisAlignment: context.isXsScreen() ? CrossAxisAlignment.stretch : CrossAxisAlignment.start,
                   children: context.isXsScreen()
                       ? actions.foldRightWithIndex(
-                          [], (element, accumulator, index) => [element, AppSizesUnit.sizedBox8, ...accumulator])
+                          [], (accumulator, element, index) => [element, AppSizesUnit.sizedBox8, ...accumulator])
                       : actions.foldRightWithIndex(
                           [],
-                          (element, accumulator, index) =>
+                          (accumulator, element, index) =>
                               [...accumulator, AppSizesUnit.sizedBox8, Expanded(child: element)]),
                 )
               ],
@@ -60,7 +58,7 @@ class AppFullPageDialog extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   IconButton(
-                    onPressed: () => context.pop(),
+                    onPressed: () => Navigator.pop(context),
                     icon: const Icon(AppIcons.close, size: AppSizesUnit.medium24),
                   ),
                 ],

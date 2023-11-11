@@ -3,21 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/_fe_analyzer_shared-58.0.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/_fe_analyzer_shared-64.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/analyzer-5.10.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/analyzer-6.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "analyzer_plugin",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/analyzer_plugin-0.11.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "another_flushbar",
@@ -27,9 +21,9 @@
     },
     {
       "name": "args",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/args-2.4.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/args-2.4.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "async",
@@ -45,9 +39,9 @@
     },
     {
       "name": "build",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build-2.4.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "build_config",
@@ -63,21 +57,21 @@
     },
     {
       "name": "build_resolvers",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build_resolvers-2.2.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build_resolvers-2.4.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build_runner-2.4.2",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build_runner-2.4.6",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "build_runner_core",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build_runner_core-7.2.8",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/build_runner_core-7.2.11",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "built_collection",
@@ -87,7 +81,7 @@
     },
     {
       "name": "built_value",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/built_value-8.5.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/built_value-8.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -104,18 +98,6 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "ci",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/ci-0.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "cli_util",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/cli_util-0.4.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "clock",
       "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
@@ -123,13 +105,13 @@
     },
     {
       "name": "code_builder",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/code_builder-4.4.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/code_builder-4.7.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/collection-1.17.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/collection-1.17.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -140,12 +122,6 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "cross_file",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/cross_file-0.3.3+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "crypto",
       "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/crypto-3.0.3",
       "packageUri": "lib/",
@@ -153,33 +129,15 @@
     },
     {
       "name": "csslib",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/csslib-0.17.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "custom_lint",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/custom_lint-0.3.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "custom_lint_core",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/custom_lint_core-0.3.4",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/csslib-0.17.3",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/dart_style-2.3.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/dart_style-2.3.3",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "dio",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/dio-5.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "3.0"
     },
     {
       "name": "fake_async",
@@ -189,21 +147,15 @@
     },
     {
       "name": "ffi",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/ffi-2.0.2",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/ffi-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "file",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/file-6.1.4",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/file-7.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "fimber",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/fimber-0.6.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "fixnum",
@@ -219,97 +171,37 @@
     },
     {
       "name": "flutter_adaptive_scaffold",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_adaptive_scaffold-0.1.3",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_adaptive_scaffold-0.1.7+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_animate",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_animate-4.1.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_animate-4.2.0+1",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter_hooks",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_hooks-0.18.6",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_hooks-0.20.3",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "flutter_html",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_html-3.0.0-alpha.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "flutter_inappwebview",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_inappwebview-5.7.2+3",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "flutter_lints",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_lints-2.0.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_html-3.0.0-beta.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
-      "name": "flutter_localizations",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/envs/my_env/flutter/packages/flutter_localizations",
+      "name": "flutter_lints",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_lints-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
-      "name": "flutter_plugin_android_lifecycle",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.14",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "flutter_riverpod",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_riverpod-2.3.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "flutter_secure_storage",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_secure_storage-8.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "flutter_secure_storage_linux",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_secure_storage_linux-1.1.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "flutter_secure_storage_macos",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_secure_storage_macos-3.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "flutter_secure_storage_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_secure_storage_platform_interface-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "flutter_secure_storage_web",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_secure_storage_web-1.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "flutter_secure_storage_windows",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_secure_storage_windows-2.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "flutter_svg",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_svg-2.0.7",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/flutter_svg-2.0.8",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -320,26 +212,20 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "flutter_web_plugins",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/envs/my_env/flutter/packages/flutter_web_plugins",
+      "name": "fpdart",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/fpdart-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
-      "name": "fpdart",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/fpdart-0.6.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "freezed",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/freezed-2.3.3",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/freezed-2.4.5",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "freezed_annotation",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/freezed_annotation-2.2.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/freezed_annotation-2.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -351,45 +237,33 @@
     },
     {
       "name": "glob",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/glob-2.1.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/glob-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
-    },
-    {
-      "name": "go_router",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/go_router-6.4.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "google_fonts",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/google_fonts-4.0.4",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/google_fonts-6.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "graphs",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/graphs-2.3.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/graphs-2.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
-      "name": "hooks_riverpod",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/hooks_riverpod-2.3.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "html",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/html-0.15.3",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/html-0.15.4",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/http-0.13.6",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/http-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "http_multi_server",
@@ -404,38 +278,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "image_picker",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/image_picker-0.8.7+5",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "image_picker_android",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/image_picker_android-0.8.6+13",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "image_picker_for_web",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/image_picker_for_web-2.1.12",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "image_picker_ios",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/image_picker_ios-0.8.7+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "image_picker_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/image_picker_platform_interface-2.6.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "intl",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/intl-0.18.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/intl-0.18.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -459,33 +303,39 @@
     },
     {
       "name": "json_serializable",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/json_serializable-6.6.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "lints",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/lints-2.1.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/json_serializable-6.7.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
-      "name": "logging",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/logging-1.1.1",
+      "name": "lints",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/lints-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "list_counter",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/list_counter-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
+      "name": "logging",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/logging-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "matcher",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/matcher-0.12.15",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/matcher-0.12.16",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/material_color_utilities-0.2.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/material_color_utilities-0.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
@@ -498,12 +348,6 @@
       "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/mime-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "numerus",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/numerus-1.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "package_config",
@@ -525,39 +369,39 @@
     },
     {
       "name": "path_provider",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider-2.0.15",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_android-2.0.27",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_android-2.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "path_provider_foundation",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_foundation-2.2.3",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_foundation-2.3.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_linux-2.1.10",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_linux-2.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "path_provider_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_platform_interface-2.0.6",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_platform_interface-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "path_provider_windows",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_windows-2.1.6",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/path_provider_windows-2.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "petitparser",
@@ -567,27 +411,21 @@
     },
     {
       "name": "platform",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/platform-3.1.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/platform-3.1.3",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/plugin_platform_interface-2.1.4",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/plugin_platform_interface-2.1.6",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "pool",
       "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/pool-1.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "process",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/process-4.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
     },
     {
       "name": "pub_semver",
@@ -600,96 +438,6 @@
       "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/pubspec_parse-1.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "riverpod",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/riverpod-2.3.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "riverpod_analyzer_utils",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/riverpod_analyzer_utils-0.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "riverpod_annotation",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/riverpod_annotation-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "riverpod_generator",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/riverpod_generator-2.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "rxdart",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/rxdart-0.27.7",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "scrollable_positioned_list",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/scrollable_positioned_list-0.3.8",
-      "packageUri": "lib/",
-      "languageVersion": "2.15"
-    },
-    {
-      "name": "share_plus",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/share_plus-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "share_plus_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/share_plus_platform_interface-3.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "shared_preferences",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shared_preferences_android",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences_android-2.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shared_preferences_foundation",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences_foundation-2.2.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shared_preferences_linux",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences_linux-2.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shared_preferences_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences_platform_interface-2.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shared_preferences_web",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences_web-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "shared_preferences_windows",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/shared_preferences_windows-2.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
     },
     {
       "name": "shelf",
@@ -711,33 +459,27 @@
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/source_gen-1.3.2",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/source_gen-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "source_helper",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/source_helper-1.3.3",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/source_helper-1.3.4",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/source_span-1.9.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "stack_trace",
       "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/stack_trace-1.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "state_notifier",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/state_notifier-0.7.2+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -765,7 +507,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/test_api-0.5.1",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/test_api-0.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -782,74 +524,20 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "url_launcher",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher-6.1.11",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "url_launcher_android",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_android-6.0.31",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "url_launcher_ios",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_ios-6.1.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "url_launcher_linux",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_linux-3.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "url_launcher_macos",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_macos-3.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "url_launcher_platform_interface",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_platform_interface-2.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "url_launcher_web",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_web-2.0.16",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "url_launcher_windows",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/url_launcher_windows-3.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "uuid",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/uuid-3.0.7",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "vector_graphics",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/vector_graphics-1.1.7",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/vector_graphics-1.1.9+1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_graphics_codec",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/vector_graphics_codec-1.1.7",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/vector_graphics_codec-1.1.9+1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_graphics_compiler",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/vector_graphics_compiler-1.1.7",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/vector_graphics_compiler-1.1.9+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -861,9 +549,15 @@
     },
     {
       "name": "watcher",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/watcher-1.0.2",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/watcher-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/web-0.1.4-beta",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
     },
     {
       "name": "web_socket_channel",
@@ -873,15 +567,15 @@
     },
     {
       "name": "win32",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/win32-4.1.4",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/win32-5.0.9",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "xdg_directories",
-      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/xdg_directories-1.0.0",
+      "rootUri": "file:///C:/Users/ADMIN/.puro/shared/pub_cache/hosted/pub.dev/xdg_directories-1.0.3",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "xml",
@@ -902,7 +596,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-07-04T03:21:35.382241Z",
+  "generated": "2023-10-31T06:22:35.489082Z",
   "generator": "pub",
-  "generatorVersion": "3.0.5"
+  "generatorVersion": "3.1.5"
 }
